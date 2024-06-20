@@ -81,7 +81,7 @@ public class ContactDetailActivity extends AppCompatActivity {
         // 删除按钮点击事件
         binding.btnDelete.setOnClickListener(v -> deleteContact());
     }
-//genggai
+
    private void loadContact() {
         // 从Intent中获取传递的联系人对象
         contact = getIntent().getParcelableExtra("contact");
